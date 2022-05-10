@@ -6,7 +6,7 @@ services:
     image: mcr.microsoft.com/azure-cli:latest   
     volumes: 
       - ./data:/root   
-    user: $DOCKER_USER
+    #user: $DOCKER_USER
     command: sleep infinity
     
     
