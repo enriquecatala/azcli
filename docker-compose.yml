@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  db1:
+    container_name: azcli
+    image: mcr.microsoft.com/azure-cli:latest   
+    volumes: 
+      - ./data:/root   
+    user: $DOCKER_USER
+    command: sleep infinity
+    
+    
