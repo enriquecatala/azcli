@@ -1,0 +1,2 @@
+# azcli
+azcli docker compose
